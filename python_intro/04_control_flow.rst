@@ -243,4 +243,4 @@ _____
     .. math::
         \pi = 2 \prod_{i=1}^{\infty} \frac{4i^2}{4i^2 - 1}
 
-.. :ref:`pi_wallis`
+    .. image:: formula.png
