@@ -1,5 +1,30 @@
-Hello World x4
-==============
+Python 1: Hello World Four Ways
+===============================
+
+** Presented By: Jake Vanderplas **
+
+
+What is Python ?
+----------------
+
+Python is an interpreted (pre-compiled) language. Its simple, high
+level, human readable interface speeds the programming process in
+exchange for some computation time overhead. Python is implemented
+mostly in the C programming language, so, as python develops, it is
+increasingly possible to do everything in Python that is possible in C.
+Python is also free and open source, so if you find a bug or generate a
+useful module, the Python Software Foundation will likely be happy to
+merge your changes into the language.
+
+During this session you are going to learn about some very basics about
+how to execute python code as well as some examples of the built-in
+Python data types.
+
+Built-in data types are the basic building blocks of Python programs.
+They are really basic things like strings and numbers (either integers,
+complex or floating point numbers). There are simple containers like
+lists (think of lists as arrays or vectors), tuples and dictionaries.
+
 In this section, we'll learn the "hello world" of python, four different ways.
 We'll discuss these ways of using Python, including their advantages and
 disadvantages.  We'll make use of all of these throughout the tutorial.
