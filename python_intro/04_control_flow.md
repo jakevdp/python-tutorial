@@ -181,7 +181,7 @@ Advanced iteration
 You can iterate over any sequence (string, list, keys in a dictionary, lines in
 a file, ...):
 
-```
+``` python
 >>> vowels = 'aeiouy'
 
 >>> for i in 'powerful':
@@ -190,7 +190,7 @@ a file, ...):
 o e u
 ```
 
-```
+``` python
 >>> message = "Hello how are you?"
 >>> message.split() # returns a list
 ['Hello', 'how', 'are', 'you?']
@@ -221,7 +221,7 @@ item number.
 
 * Could use while loop with a counter as above. Or a for loop::
 
-  ```
+  ``` python
   >>> words = ('cool', 'powerful', 'readable')
   >>> for i in range(0, len(words)):
   ...     print i, words[i]
@@ -232,7 +232,7 @@ item number.
 
 * But, Python provides ``enumerate`` keyword for this::
 
-  ```
+  ``` python
   >>> for index, item in enumerate(words):
   ...     print index, item
   0 cool
@@ -245,7 +245,7 @@ item number.
 
 Use **iteritems**:
 
-```
+``` python
 >>> d = {'a': 1, 'b':1.2, 'c':1j}
 
 >>> for key, val in d.iteritems():
@@ -260,7 +260,7 @@ Advanced: List Comprehensions
 List comprehensions are a way to condense for loops into a single statement.
 They can be really fun!
 
-```
+``` python
 >>> [i**2 for i in range(4)]
 [0, 1, 4, 9]
 ```
@@ -268,7 +268,7 @@ They can be really fun!
 They can be very useful and concise, but it's easy to misuse these and make
 code very difficult to read.  For example:
 
-```
+``` python
 def S(p):i=p.find('0');return[(s for v in
 set(`5**18`)-{(i-j)%9*(i/9^j/9)*(i/27^j/27|i%9/3^j%9/3)or
 p[j]for j in range(81)}for s in S(p[:i]+v+p[i+1:])),[p]][i<0]
