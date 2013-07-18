@@ -292,8 +292,15 @@ They can be really fun!
 [0, 1, 4, 9]
 ```
 
-They can be very useful and concise, but it's easy to misuse these and make
-code very difficult to read.  For example:
+Conditionals can be included in list comprehensions as well:
+
+``` python
+>>> [i for i in range(12) if i % 3 > 0]
+[1, 2, 4, 5, 7, 8, 10, 11]
+```
+
+List comprehensions can be very useful and concise, but it's easy to misuse
+these and make code very difficult to read.  For example:
 
 ``` python
 def S(p):i=p.find('0');return[(s for v in
@@ -312,3 +319,11 @@ Exercise
 Compute the decimals of Pi using the Wallis formula:
 
 ![\pi = 2 \prod_{i=1}^{\infty} \frac{4i^2}{4i^2 - 1}](formula.png)
+
+
+Bonus Exercise
+--------------
+Use a nested list comprehension that returns a list of all prime numbers up to
+any number N.  This will not be the most efficient solution, but it's a
+fun challenge!  (hint: you'll probably want to use either the built-in python
+functions ``any`` or ``all``).
