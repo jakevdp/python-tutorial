@@ -145,31 +145,36 @@ Conditional Expressions
 
   Tests equality, with logics::
 
-    >>> 1 == 1.
-    True
+  ``` python
+  >>> 1 == 1.
+  True
+  ```
 
 - ``a is b``:
 
   Tests identity: both sides are the same object::
 
-    >>> 1 is 1.
-    False
+  ``` python
+  >>> 1 is 1.
+  False
 
-    >>> a = 1
-    >>> b = 1
-    >>> a is b
-    True
+  >>> a = 1
+  >>> b = 1
+  >>> a is b
+  True
+  ```
 
 - ``a in b``:
 
   For any collection ``b``: ``b`` contains ``a`` ::
 
-    >>> b = [1, 2, 3]
-    >>> 2 in b
-    True
-    >>> 5 in b
-    False
-
+  ``` python
+  >>> b = [1, 2, 3]
+  >>> 2 in b
+  True
+  >>> 5 in b
+  False
+  ```
 
   If ``b`` is a dictionary, this tests that ``a`` is a key of ``b``.
 
