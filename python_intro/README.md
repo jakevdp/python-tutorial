@@ -80,3 +80,9 @@ IPython Notebook Commands
  - `control-m a`: insert a new cell above the current cell
  - `control-m b`: insert a new cell below the current cell
 
+
+For More Information
+====================
+
+- http://scipy-lectures.github.com
+- http://matplotlib.org
