@@ -35,6 +35,7 @@ In [2]: if a == 1:
    ...:     print('A lot')
    ...:
 A lot
+```
 
 Indentation is compulsory in scripts as well.
 
