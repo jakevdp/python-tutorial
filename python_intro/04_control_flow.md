@@ -9,7 +9,7 @@ conditional statements and loop statements.
 Conditionals
 ------------
 
-```python
+``` python
 >>> if 2**2 == 4:
 ...     print 'Obvious!'
 ...
@@ -24,7 +24,7 @@ increases the indentation depth after a column ``:`` sign; to
 decrease the indentation depth, go four spaces to the left with the
 Backspace key. Press the Enter key twice to leave the logical block.
 
-```
+``` python
 In [1]: a = 10
 
 In [2]: if a == 1:
@@ -44,7 +44,7 @@ As a practice with this, open a file ``condition.py`` and re-type the above
 statements.  Previously, we ran this file with ``$> python conditional.py``.
 We can also run it from the IPython terminal, using
 
-```
+``` python
 In [1]: %run condition.py
 ```
 
@@ -59,7 +59,7 @@ focus on ``for`` loops here.
 
 A typical for loop is an iteration over an index
 
-```
+``` python
 >>> for i in range(4):
 ...     print(i)
 0
@@ -71,7 +71,7 @@ A typical for loop is an iteration over an index
 But most often, it is more readable to iterate over values.  This is one feature
 Python has that many languages don't:
 
-```
+``` python
 >>> for word in ('cool', 'powerful', 'readable'):
 ...     print('Python is %s' % word)
 Python is cool
@@ -85,7 +85,7 @@ while looks and break/continue
 ``while`` loops are in some ways more general.  They can easily be used to
 create infinite loops that will go on forever:
 
-```
+``` python
 >>> while True:
 ...     pass # do nothing
 ```
@@ -94,7 +94,7 @@ To stop this, press ``Ctrl C``.
 
 A typical C-style while loop is this, which solves the Mandelbrot problem:
 
-```
+``` python
 >>> z = 1 + 1j
 >>> while abs(z) < 100:
 ...     z = z**2 + 1
@@ -106,7 +106,7 @@ A typical C-style while loop is this, which solves the Mandelbrot problem:
 
 ``break`` out of enclosing for/while loop::
 
-```
+``` python
 >>> z = 1 + 1j
 
 >>> while abs(z) < 100:
@@ -117,7 +117,7 @@ A typical C-style while loop is this, which solves the Mandelbrot problem:
 
 ``continue`` the next iteration of a loop.::
 
-```
+``` python
 >>> a = [1, 0, 2, 4]
 >>> for element in a:
 ...     if element == 0:
