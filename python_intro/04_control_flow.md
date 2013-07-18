@@ -323,7 +323,7 @@ Compute the decimals of Pi using the Wallis formula:
 
 Bonus Exercise
 --------------
-Use a nested list comprehension that returns a list of all prime numbers up to
+Create a nested list comprehension that returns a list of all prime numbers up to
 any number N.  This will not be the most efficient solution, but it's a
 fun challenge!  (hint: you'll probably want to use either the built-in python
 functions ``any`` or ``all``).
