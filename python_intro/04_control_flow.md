@@ -92,7 +92,28 @@ create infinite loops that will go on forever:
 
 To stop this, press ``Ctrl C``.
 
-A typical C-style while loop is this, which solves the Mandelbrot problem:
+To be more useful, you can add a more interesting conditional:
+
+``` python
+>>> x = 0
+>>> while x < 10:
+...     print x
+...     x = x + 1
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+But this is not much different than a for loop.  The while-loop can be more
+flexible: for example, here is a C-style while loop which solves the
+Mandelbrot probem:
 
 ``` python
 >>> z = 1 + 1j
